@@ -1,0 +1,30 @@
+div.ads2 {
+  width: 1304px;
+  height: 258px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.ads2 > :nth-of-type(1) {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+div.ads2 > :nth-of-type(1) > img {
+  width: 644px;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: contain;
+}
+div.ads2 > :nth-of-type(2) {
+  cursor: pointer;
+  width: 50%;
+  height: 100%;
+}
+div.ads2 > :nth-of-type(2) > img {
+  width: 644px;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: contain;
+}

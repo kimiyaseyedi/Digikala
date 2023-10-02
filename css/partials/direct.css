@@ -1,0 +1,13 @@
+div.direct {
+  background-color: #ef4056;
+  font-size: 14px;
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  bottom: 10px;
+  left: 50px;
+  z-index: 997;
+  border-radius: 50%;
+  cursor: pointer;
+}

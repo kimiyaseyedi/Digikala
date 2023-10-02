@@ -1,0 +1,33 @@
+div.story {
+  width: 1304px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 145px;
+  margin: 0 auto;
+  margin-top: px;
+  text-align: center;
+  align-items: center;
+}
+div.story > div.circle {
+  width: fit-content;
+  height: 80%;
+}
+div.story > div.circle > img {
+  border: solid 3px white;
+  outline: solid 3px #ef394e;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 300ms linear;
+
+}
+div.story > div.circle > img:hover {
+  outline: 3px solid #e0e0e6;
+}
+div.story > div.circle > p {
+  font-size: 13px;
+  font-family: YBOLD;
+  cursor: pointer;
+}

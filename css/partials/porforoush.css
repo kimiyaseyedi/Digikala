@@ -1,0 +1,1082 @@
+div.porforosh {
+  font-family: numb;
+  width: 1304px;
+  height: 404px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e6;
+  margin: 24px auto;
+  padding: 16px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+}
+div.porforosh > div:nth-of-type(1) {
+  width: 1302px;
+  height: 44px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+}
+div.porforosh > div:nth-of-type(1) > a {
+  width: 93px;
+  height: 30px;
+  color: #19bfd3;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+  word-spacing: 0;
+  border-radius: 8px;
+  text-align: center;
+  position: absolute;
+  left: 10px;
+}
+div.porforosh > div:nth-of-type(1) > div {
+  width: 200px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.porforosh > div:nth-of-type(1) > div > p {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 44px;
+  word-spacing: 0;
+  color: #080a38;
+  width: 170px;
+  height: 44px;
+}
+div.porforosh > div.contentPF {
+  width: 1302px;
+  height: 298px;
+  margin: 28px 0 0 0;
+  padding: 8px 0 8px 0;
+  background-color: #ffffff;
+}
+/* start slider */
+
+.mySwiper4 {
+  width: 100%;
+  height: 100% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper4 .swiper-slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Frow {
+  width: 306px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(1) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(2) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(3) {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(3) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(3) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(3) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(3) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .Frow > div:nth-of-type(3) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .Srow {
+  width: 306px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(1) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(2) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 4px;
+}
+
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(3) {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(3) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(3) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(3) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(3) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .Srow > div:nth-of-type(3) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 4px;
+}
+
+.mySwiper4 .swiper-slide .THrow {
+  width: 306px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(1) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 52px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(2) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(3) {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(3) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(3) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(3) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(3) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .THrow > div:nth-of-type(3) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 5px;
+}
+
+.mySwiper4 .swiper-slide .FOrow {
+  width: 306px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(1) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(2) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(3) {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(3) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(3) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(3) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(3) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .FOrow > div:nth-of-type(3) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 52px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .FFrow {
+  width: 306px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(1) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 190px;
+  height: 1px;
+  margin-right: 120px;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(2) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(3) {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(3) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(3) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(3) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(3) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .FFrow > div:nth-of-type(3) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .SXrow {
+  width: 306px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 180px;
+  height: 1px;
+  margin-right: 125px;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(1) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 52px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2)::after {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2)::after {
+  content: " ";
+  background-color: #e0e0e6;
+  width: 180px;
+  height: 1px;
+  margin-right: 125px;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(2) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 52px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(3) {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(3) > a {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(3) > a > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(3) > a > span {
+  width: 20px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(3) > a > span > h4 {
+  color: #19bfd3;
+  font-size: 26px;
+  font-weight: 800;
+  word-spacing: 0;
+}
+
+.mySwiper4 .swiper-slide .SXrow > div:nth-of-type(3) > a > p {
+  width: 190px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #3f4064;
+  text-align: start;
+  padding: 0 8px;
+}
+
+/* end slider */

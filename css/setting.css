@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: YEKAN;
+}
+:root {
+  --co1: #767790;
+  --co2: ;
+}
+div.body {
+  width: 1304px;
+  margin: 0 auto;
+}
+/*YEKAN*/
+@font-face {
+  font-family: YBLACK;
+  src: url(./font/AnyConv.com__iranyekan-black.woff);
+}
+@font-face {
+  font-family: YBOLD;
+  src: url(./font/AnyConv.com__iranyekan-bold.woff);
+}
+@font-face {
+  font-family: YEXTRABLACK;
+  src: url(/font/AnyConv.com__iranyekan-extrablack.woff);
+}
+@font-face {
+  font-family: YEXTRABOLD;
+  src: url(./font/AnyConv.com__iranyekan-extrabold.woff);
+}
+@font-face {
+  font-family: YLIGHT;
+  src: url(./font/AnyConv.com__iranyekan-light.woff);
+}
+@font-face {
+  font-family: YMEDIUM;
+  src: url(./font/AnyConv.com__iranyekan-medium.woff);
+}
+@font-face {
+  font-family: YEKAN;
+  src: url(./font/AnyConv.com__iranyekan.woff);
+}
+@font-face {
+  font-family: numb;
+  src: url(./font/IRANSansXFaNum-Regular.woff);
+}

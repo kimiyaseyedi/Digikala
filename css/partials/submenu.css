@@ -1,0 +1,399 @@
+div.daste {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px 0px 12px;
+  position: relative;
+}
+
+div.daste > div {
+  width: 1320px;
+  position: absolute;
+  right: 0px;
+  top: 44px;
+  background-color: white;
+  z-index: 995;
+  border-radius: 8px;
+  transition: all 300ms linear;
+  visibility: hidden;
+}
+
+div.daste > a:focus ~ div{
+  visibility: visible;
+}
+
+div.daste > div > div{
+  width: inherit;
+  height: 420px;
+  position: relative;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
+  border-radius: 8px;
+}
+
+div.daste > div > div > ul {
+  height: 420px;
+  overflow: auto;
+  list-style: none;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  border-left: 1px solid #f0f0f0;
+}
+
+div.daste > div > div > ul > li {
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 8px 8px 0px;
+  gap: 0px 4px;
+}
+
+div.daste > div > div > ul > li:hover {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+div.daste > div > div > ul > li > p{
+  width: 100%;
+  font-size: 12px;
+  color: #3F4064;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0px 4px;
+  padding: 12px 2px;
+}
+
+div.daste > div > div > ul > li > p > img {
+  width: 20px;
+  height: 20px;
+}
+
+div.daste > div > div > ul > li > p:hover {
+  color: #EF394E;
+}
+
+div.daste > div > div > ul > li > div {
+  position: absolute;
+  height: 420px !important;
+  overflow: auto;
+  left: 0px;
+  top: 0px;
+  width: 1120px;
+  padding: 16px;
+  display: none;
+  border-radius: 8px;
+}
+
+div.daste > div > div > ul > li:hover > div {
+  height: fit-content;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1120px;
+  padding: 16px;
+  display: block;
+}
+
+div.daste > div > div > ul > li > div > a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #3F4064;
+  font-size: 12px;
+  padding: 16px 0px;
+  text-decoration: none;
+}
+
+div.daste > div > div > ul > li > div > a > img{
+  width: 20px;
+  height: 20px;
+}
+
+div.daste > div > div > ul > li > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  vertical-align: top;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+div.daste > div > div > ul > li > div > div > div {
+  display: flex;
+  width: 100%;
+  height: inherit;
+  flex-direction: column;
+  justify-content: start;
+}
+
+div.daste > div > div > ul > li > div > div > div > a.onvan {
+  text-decoration: none;
+  padding: 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #3F4064;
+  font-size: 14px;
+  position: relative;
+}
+
+div.daste > div > div > ul > li > div > div > div > a.onvan:hover {
+  color: #EF394E;
+}
+
+div.daste > div > div > ul > li > div > div > div > a.onvan > img {
+  width: 20px;
+  height: 20px;
+}
+
+div.daste > div > div > ul > li > div > div > div > a.onvan::after {
+  content: " ";
+  width: 2px;
+  height: 20px;
+  background-color: #EF394E;
+  position: absolute;
+  right: 0px;
+  top: calc(50% - 8px);
+} 
+
+div.daste > div > div > ul > li > div > div > div > a.zironvan {
+  text-decoration: none;
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #767790;
+  font-size: 12px;
+  position: relative;
+}
+
+div.daste > div > div > ul > li > div > div > div > a.zironvan:hover {
+  color: #EF394E;
+}
+
+div.menu > div > div:nth-child(1) > div.daste > a {
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #3F4064;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.shgftangiz {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+div.menu > div > div:nth-child(1) > div.shgftangiz::after {
+  content: " ";
+  width: 1px;
+  height: 16px;
+  background-color: #E0E0E6;
+  position: absolute;
+  right: 0px;
+  top: calc(50% - 8px);
+}
+
+div.menu > div > div:nth-child(1) > div.shgftangiz > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.super {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.super > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.gift {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.gift > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.hot {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.hot > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.offer {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.offer > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.offer::after {
+  content: " ";
+  width: 1px;
+  height: 16px;
+  background-color: #E0E0E6;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 8px);
+
+}
+
+div.menu > div > div:nth-child(1) > div.question {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.question > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.sold {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.sold > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+
+div.menu > div > div:nth-child(2) {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+div.menu > div > div:nth-child(2) > div.location {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  position: relative;
+}
+
+
+div.menu > div > div:nth-child(2) > div.location > a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #5A5C7A;
+  column-gap: 4px;
+}
+
+
+/* start menu hover */
+div.menu > div > div:nth-child(1) > div {
+  position: relative;
+}
+
+div.menu > div > div:nth-child(1) > div::before {
+  content: " ";
+  width: 0;
+  height: 2px;
+  border-radius: 2px 2px 0px 0px;
+  border-bottom: 2px solid red;
+  z-index: 900;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: right;
+}
+
+div.menu > div > div:nth-child(1) > div:hover::before {
+  width: 100%;
+  transition: all 200ms ease-in-out;
+  border-bottom: 2px solid red;
+}
+/* end menu hover */
+
+/* end menu */

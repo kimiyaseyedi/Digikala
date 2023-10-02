@@ -1,0 +1,132 @@
+/* PREHEADER*/
+div.preheader {
+  background-color: aquamarine;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  display: flex;
+}
+div.preheader > a {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./media/header/0aae27533b25ad8ea73513747766ce99dcc541c2_1692723142.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  text-decoration: none;
+}
+/*END PREHEADER*/
+/* header */
+header {
+  height: 68px;
+  width: 100%;
+  padding: 0px 16px;
+  top: 60px;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+header > div {
+  display: flex;
+  width: 100%;
+  height: 68px;
+}
+/* searchbox */
+header > div > div:nth-of-type(1) {
+  width: 70%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+header > div > div:nth-of-type(1) > img {
+  width: 115px;
+  height: 30px;
+  cursor: pointer;
+}
+header > div > div:nth-of-type(1) > div {
+  width: 600px;
+  height: 44px;
+  background-color: #f1f2f4;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  column-gap: 15px;
+  padding-right: 20px;
+}
+header > div > div:nth-of-type(1) > div > span {
+  color: #9e9fb1;
+  font-size: large;
+}
+header > div > div:nth-of-type(1) > div > input {
+  outline: unset;
+  border: unset;
+  color: #9e9fb1;
+  font-size: 12px;
+  font-family: YEKAN;
+  background-color: #f1f2f4;
+}
+/* login */
+header > div > div:nth-child(2) {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  column-gap: 12px;
+}
+
+header > div > div:nth-child(2) > div.log > div {
+  border: 1px solid #e0e0e6;
+  border-radius: 8px;
+  width: inherit;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+header > div > div:nth-child(2) > div.log > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+header > div > div:nth-child(2) > div.log > div > span > img{
+  width: 24px;
+  height: 24px;
+}
+header > div > div:nth-child(2) > div.log > div > a {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 12px;
+  text-decoration: none;
+  color: #080a38;
+}
+
+header > div > div:nth-child(2) > div.log > div > a > div {
+  width: 2px;
+  height: 12px;
+  margin: 0px 4px;
+  background-color: #080a38;
+  display: inline-block;
+}
+
+header > div > div:nth-child(2) > div.shop > div {
+  height: 24px;
+  padding: 0px 18px;
+  border-right: 1px #e0e0e6 solid;
+}
+header > div > div:nth-child(2) > div.shop > div img{
+width: 24px;
+height: 24px;
+}
